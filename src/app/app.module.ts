@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/contador.module';
 import { DbzModule } from './dbz/dbz.module';
+import { AgregarComponent } from './agregar/agregar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AgregarComponent
   ],
   imports: [
     BrowserModule,
